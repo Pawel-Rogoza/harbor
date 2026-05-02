@@ -1,0 +1,29 @@
+# Sekrety
+*.key
+*.pem
+*.crt
+secrets.yml
+*.vault
+.env
+.env.*
+ansible/inventory/hosts.yml
+ansible/group_vars/*/vault.yml
+
+# Edytory
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pliki tymczasowe
+*.bak
+*.tmp
+*.log
+
+# Ansible
+*.retry
