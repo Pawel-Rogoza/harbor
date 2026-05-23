@@ -36,9 +36,9 @@ Projekt w aktywnym rozwoju.
 
 | Etap | Temat | Status |
 |------|-------|--------|
-| 0    | Hardening + setup | W trakcie |
-| 1    | Web stack | Planowane |
-| 2    | SSL + WordPress | Planowane |
+| 0    | Hardening + setup | Gotowe |
+| 1    | Web stack | Gotowe |
+| 2    | SSL + WordPress | Gotowe |
 | 3    | Separacja klientów | Planowane |
 | 4    | Bezpieczeństwo (WAF, malware) | Planowane |
 | 5    | Monitoring | Planowane |
