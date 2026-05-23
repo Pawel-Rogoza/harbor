@@ -1,11 +1,11 @@
-# Kontekst dla Claude'a
+# Kontekst dla Gemini 
 
-Ten plik służy do onboardingu Claude'a na początku każdego nowego czatu.
+Ten plik służy do onboardingu LLM'a na początku każdego nowego czatu.
 Cały projekt prowadzimy etapami w osobnych czatach (limit context window),
 więc każdy nowy czat zaczynamy od wklejenia poniższego promptu + sekcji
 "Co dziś robimy".
 
-> ⚠️ **Pod koniec każdego etapu Claude aktualizuje ten plik** — sekcję
+> ⚠️ **Pod koniec każdego etapu Gemini aktualizuje ten plik** — sekcję
 > "Status etapów", "Stan infrastruktury", "Otwarte wątki" i "Historia decyzji".
 > Aktualizacja = ostatni krok każdego etapu, przed finalnym commitem.
 
@@ -14,7 +14,7 @@ więc każdy nowy czat zaczynamy od wklejenia poniższego promptu + sekcji
 ## 📋 PROMPT DO WKLEJENIA NA START NOWEGO CZATU
 
 ```
-Cześć Claude. Pracujemy nad projektem sudormrf-server — kontynuujemy
+Cześć Gemini. Pracujemy nad projektem sudormrf-server — kontynuujemy
 wieloetapową budowę środowiska hostingowego od zera.
 
 ## Kim jestem
@@ -25,8 +25,8 @@ i przy okazji hostować kilku własnych klientów (małe strony WWW).
 Cel długoterminowy: przejście z CST do utrzymania/DevOps.
 
 ## Projekt
-- Repo: https://gitlab.com/Pawel-Rogoza/sudormrf-hosting
-- VPS: Hetzner Cloud CPX21 (3 vCPU AMD, 4 GB RAM, 80 GB NVMe), Falkenstein
+- Repo: https://github.com/Pawel-Rogoza/harbor
+- VPS: Hetzner Cloud CPX23 (2 vCPU AMD, 4 GB RAM, 40 GB NVMe), Falkenstein
 - OS: AlmaLinux 10 "Purple Lion"
 - Domena operatorska: sudormrf.pl, host: s1.sudormrf.pl
 - Backup storage: Hetzner Storage Box BX11 (planowane)

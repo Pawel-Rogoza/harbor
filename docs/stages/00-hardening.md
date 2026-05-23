@@ -5,7 +5,7 @@
 
 ## Kontekst
 
-Świeżo postawiony VPS Hetzner CPX21 z AlmaLinux 9 w Falkenstein.
+Świeżo postawiony VPS Hetzner CPX23 z AlmaLinux 10 w Falkenstein.
 Domena: s1.sudormrf.pl, PTR ustawiony, DNS A record działa.
 
 ## Plan etapu
